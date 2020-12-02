@@ -33,13 +33,13 @@ const gMark = require('./markdown.js');
     {
         type: 'input',
         name: 'contributing',
-        message: "Can other developers contribute?"
+        message: "Who helped you with building this project?"
     },
     {
         type: 'list',
         name: 'license',
         message: "Choose a license for your project",
-        choices: ['MIT', 'Apache']
+        choices: ['MIT', 'Apache', 'BSDv3', 'BSDv2', 'LGPL', 'GNUv3', 'GNUv2', 'WTFPL']
     },
     {
         type: 'input',

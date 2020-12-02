@@ -1,8 +1,8 @@
 
-# q
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# readme
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description  
-q
+description
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -11,14 +11,14 @@ q
 5. [Questions](#questions)
 
 ## Installation
-q  
+install  
 ## Usage   
-q
+usage
 ## Contributing
-q
+contribute
 ## Tests 
-q
+tests
 ## Questions
-q  
-q  
-[GitHub Username](https://github.com/q)  
+contact  
+email  
+[GitHub Username](https://github.com/username)  
