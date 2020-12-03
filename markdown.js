@@ -38,7 +38,7 @@ ${answers.description}
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
-3. [Contributing](#contributing)
+3. [Contribution](#contribution)
 4. [Tests](#tests)
 5. [Questions](#questions)
 
@@ -46,7 +46,7 @@ ${answers.description}
 ${answers.installation}  
 ## Usage   
 ${answers.usage}
-## Contributing
+## Contribution
 ${answers.contributing}
 ## Tests 
 ${answers.tests}
