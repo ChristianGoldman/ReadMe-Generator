@@ -1,21 +1,7 @@
 const fs = require('fs');
 
-// double pipes code goes here
-// function formatAnswer(answer) {
-//     if (answer has double pipe) { ***fix
-//         const strArray = answer.split('||'); ? ***fix
-//         let retStr = '';
-//         let newLine = '';
-//         for (each str in strArray) { ***fix
-//             retStr += newLine + '*' + str;
-//             newLine = '<br />';
-//         }
-//         return retStr;
-//     } else {
-//         return answer;
-//     }
-// }
 function generateReadMe(answers) {
+    // All available licenses
     const licenses = 
     {
         MIT: "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
@@ -28,13 +14,15 @@ function generateReadMe(answers) {
         WTFPL: "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"
 
     }
-    // const usersAnswer = `${answers.description}`
-    // const formattedDescription = formatAnswer(usersAnswer);
+    // allows the user to put "||" to use bullet points instead of one paragraph
+    const usersAnswer = `${answers.description}`
+    const bStr = "* " + usersAnswer.split("||").join("\n*");
+    // hard coded markdown
     const readMe = `
 # ${answers.title}
 ${licenses[answers.license]}
 ## Description  
-${answers.description}
+${bStr}
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -54,8 +42,9 @@ ${answers.tests}
 ${answers.contact}  
 ${answers.email}  
 [GitHub Username](https://github.com/${answers.github})  `
+// writing a new project.md read me. It will overwrite the previous file.
     fs.writeFileSync("project.md", readMe);
     console.log("saved succesfully!");
 }
-
+// exporting the generated read me 
 module.exports = {generateReadMe}

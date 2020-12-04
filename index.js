@@ -1,13 +1,7 @@
 const inquirer = require("inquirer");
+// grabbing the code inside markdown.js
 const gMark = require('./markdown.js');
-
-// inquirer questions for the user
-// next 4 questions......
-// use || to seperate lines
-// check for || 
-// add this to before generate readme markdown.js 
-// add split() on double pipes
-// google split on double pipes
+// command line questions
     inquirer
   .prompt([
     {
@@ -28,7 +22,7 @@ const gMark = require('./markdown.js');
     {
         type: 'input',
         name: 'usage',
-        message: "usage goes here"
+        message: "Describe how to you run and operate your project"
     },
     {
         type: 'input',
@@ -63,9 +57,11 @@ const gMark = require('./markdown.js');
     }
   ])
   .then(answers => {
+    //   if no errors build the readme
     gMark.generateReadMe(answers);
 
   })
   .catch(error => {
+    //   if errors console log the error
    console.log(error)
   });

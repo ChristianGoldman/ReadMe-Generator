@@ -1,8 +1,15 @@
 
-# ReadMe Generator
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+# title
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description  
-Description about the readme Generator. 
+* hello 
+* hye 
+* why
+* am
+* i 
+* doing this
+* so much work 
+*
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -11,14 +18,14 @@ Description about the readme Generator.
 5. [Questions](#questions)
 
 ## Installation
-In the command line run "npm install inquirer"  
+  
 ## Usage   
-usage
+
 ## Contribution
-contribute
+
 ## Tests 
-tests
+
 ## Questions
-contact  
-christian@wgoldman.com  
-[GitHub Username](https://github.com/Cgoldman)  
+  
+  
+[GitHub Username](https://github.com/)  
