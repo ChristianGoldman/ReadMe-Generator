@@ -7,6 +7,7 @@
 * Users are able to list each category in the ReadMe in one big paragraph or seperate key points using bullet points
 * A badge displaying various license will appear at the top of the page
 * A table of contents that will take you to the corresponding location on the readme
+* A corresponding notice to the license you have chosen will appear at the bottom of the ReadMe
 ## Installation ##
 1. Open up git bash terminal
 2. Change directory to desired location (%User Profile%/SourceRepo)
