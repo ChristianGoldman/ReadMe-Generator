@@ -15,7 +15,7 @@
 1. Open up git bash terminal
 2. Change directory to the cloned repo
 3. Navigate to the ReadMe-Generator folder
-4. In the command line run "npm install inquirer"
+4. In the command line run "npm install"
 5. In the commmand line run "node index.js"
 6. In the command line fill out all relevant questions
 7. Once you have filled out all the questions you should see a Generated ReadMe file with all the corresponding information. It should look something like this.

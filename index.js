@@ -53,7 +53,7 @@ const gMark = require('./markdown.js');
     {
         type: 'input',
         name: 'contact',
-        message: "How can people contact you?"
+        message: "List other alternatives people can contact with? (Twitter, linkedIn)"
     }
   ])
   .then(answers => {

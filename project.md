@@ -2,14 +2,7 @@
 # title
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description  
-* hello 
-* hye 
-* why
-* am
-* i 
-* doing this
-* so much work 
-*
+* yes
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -26,6 +19,6 @@
 ## Tests 
 
 ## Questions
-  
+twitter linked in  
   
 [GitHub Username](https://github.com/)  
