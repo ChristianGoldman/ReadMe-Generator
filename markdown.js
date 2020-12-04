@@ -1,4 +1,5 @@
 const fs = require('fs');
+const notice = require('./notice.js');
 
 function generateReadMe(answers) {
     // All available licenses
@@ -15,14 +16,14 @@ function generateReadMe(answers) {
 
     }
     // allows the user to put "||" to use bullet points instead of one paragraph
-    const usersAnswer = `${answers.description}`
-    const bStr = "* " + usersAnswer.split("||").join("\n*");
+    // const usersAnswer = `${answers.description}`
+    // const bStr = "* " + usersAnswer.split("||").join("\n*");
     // hard coded markdown
     const readMe = `
 # ${answers.title}
 ${licenses[answers.license]}
 ## Description  
-${bStr}
+${answers.description}
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
@@ -41,7 +42,9 @@ ${answers.tests}
 ## Questions
 ${answers.contact}  
 ${answers.email}  
-[GitHub Username](https://github.com/${answers.github})  `
+[GitHub Username](https://github.com/${answers.github})
+## License
+${notice[answers.license]}  `
 // writing a new project.md read me. It will overwrite the previous file.
     fs.writeFileSync("project.md", readMe);
     console.log("saved succesfully!");

@@ -30,6 +30,11 @@ const gMark = require('./markdown.js');
         message: "Who helped you with building this project?"
     },
     {
+        type: 'input',
+        name: 'notice',
+        message: 'Please input your full name and year for the license clause.'
+    },
+    {
         type: 'list',
         name: 'license',
         message: "Choose a license for your project",
