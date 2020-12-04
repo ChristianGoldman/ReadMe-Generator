@@ -18,6 +18,7 @@ function generateReadMe(answers) {
     // allows the user to put "||" to use bullet points instead of one paragraph
     // const usersAnswer = `${answers.description}`
     // const bStr = "* " + usersAnswer.split("||").join("\n*");
+
     // hard coded markdown
     const readMe = `
 # ${answers.title}
@@ -43,7 +44,7 @@ ${answers.tests}
 ${answers.contact}  
 ${answers.email}  
 [GitHub Username](https://github.com/${answers.github})
-## License
+## Notice
 ${notice[answers.license]}  `
 // writing a new project.md read me. It will overwrite the previous file.
     fs.writeFileSync("project.md", readMe);
