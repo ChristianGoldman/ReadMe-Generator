@@ -19,7 +19,15 @@ function generateReadMe(answers) {
     const usersAnswer = `${answers.description}`
     let bStr =  usersAnswer;
     if (usersAnswer.includes("||")) {
-       bStr = "* " + usersAnswer.split("||").join("\n*");
+        bStr = bStr.trim();
+        if(bStr.startsWith("||")) {
+            bStr = bStr.substr(2).trim();
+        }
+        if( bStr.endsWith("||")) {
+            bStr = bStr.substr(0, (bStr.length - 2));
+            console.log(bStr);
+        }
+       bStr = "* " + bStr.split("||").join("\n*");
     }
     
     // hard coded markdown

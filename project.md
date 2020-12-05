@@ -1,8 +1,10 @@
 
-# title
+# asdf
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Description  
-descriptoin with no bullet points
+* f 
+* d 
+* s 
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
