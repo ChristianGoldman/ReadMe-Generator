@@ -28,7 +28,7 @@
 * BCA learning assistants
 * TA's Paul Hendrickson, Tommy Boone, Jake O'Thoole, Daniel Thao
 ## Link to ReadMe Generator walkthrough video ##
-* https://www.youtube.com/watch?v=IGjJCeZSPE4
+* https://www.youtube.com/watch?v=OqRSCPXFulk
 ## License ##
     MIT License
 
