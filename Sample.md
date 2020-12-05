@@ -6,16 +6,20 @@
 * You can create bullet points in the description section using double pipes! 
 * Try it out for youself!
 ## Table of Contents 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [Contribution](#contribution)
-4. [Tests](#tests)
-5. [Questions](#questions)
+- [ReadMe Generator](#readme-generator)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution](#contribution)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  - [Notice](#notice)
 
 ## Installation
 Clone the repo from github, Navigate to the readme generator folder, in the command line "npm install".  
 ## Usage   
-Once installed a user is able to run the ReadMe generator from the command line! Simply type in "node index.js"! You should see something like this!
+Once installed a user is able to run the ReadMe generator from the command line! Simply type in "node index.js" and fill out all the relevant questions! You should see something like this!
 ![About Me](assets/readme.png)
 ## Contribution
 Christian Goldman
