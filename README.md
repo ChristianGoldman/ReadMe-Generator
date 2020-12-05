@@ -4,7 +4,7 @@
 * Project enabled me to better understand string interpolation
 * I no longer have to manually build my ReadMe I can utilize the generator
 ## Features ##
-* Users are able to list each category in the ReadMe in one big paragraph or seperate key points using bullet points
+* Users are able to list the description in the ReadMe in one big paragraph or seperate key points using bullet points
 * A badge displaying various license will appear at the top of the page
 * A table of contents that will take you to the corresponding location on the readme
 * A corresponding notice to the license you have chosen will appear at the bottom of the ReadMe

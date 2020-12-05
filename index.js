@@ -5,6 +5,10 @@ const gMark = require('./markdown.js');
     inquirer
   .prompt([
     {
+        name: 'instructions',
+        message: "If you wish to separate your description section into bullet points, simply insert || between each comment! (hey || how are you || thats great!)"
+    },
+    {
         type: 'input',
         name: 'title',
         message: "What is the title of your project?"
@@ -17,7 +21,7 @@ const gMark = require('./markdown.js');
     {
         type: 'input',
         name: 'installation',
-        message: "Give a brief explanation on how to install your project?"
+        message: "Give an explanation on how to install your project?"
     },
     {
         type: 'input',
@@ -28,11 +32,6 @@ const gMark = require('./markdown.js');
         type: 'input',
         name: 'contributing',
         message: "Who helped you with building this project?"
-    },
-    {
-        type: 'input',
-        name: 'notice',
-        message: 'Please input your full name and year for the license clause.'
     },
     {
         type: 'list',
@@ -64,9 +63,10 @@ const gMark = require('./markdown.js');
   .then(answers => {
     //   if no errors build the readme
     gMark.generateReadMe(answers);
-
   })
   .catch(error => {
     //   if errors console log the error
    console.log(error)
   });
+
+  
