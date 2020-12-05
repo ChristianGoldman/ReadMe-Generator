@@ -16,15 +16,18 @@ function generateReadMe(answers) {
 
     }
     // allows the user to put "||" to use bullet points instead of one paragraph
-    // const usersAnswer = `${answers.description}`
-    // const bStr = "* " + usersAnswer.split("||").join("\n*");
-
+    const usersAnswer = `${answers.description}`
+    let bStr =  usersAnswer;
+    if (usersAnswer.includes("||")) {
+       bStr = "* " + usersAnswer.split("||").join("\n*");
+    }
+    
     // hard coded markdown
     const readMe = `
 # ${answers.title}
 ${licenses[answers.license]}
 ## Description  
-${answers.description}
+${bStr}
 ## Table of Contents 
 1. [Installation](#installation)
 2. [Usage](#usage)
