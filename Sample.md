@@ -6,9 +6,7 @@
 * You can create bullet points in the description section using double pipes! 
 * Try it out for youself!
 ## Table of Contents 
-- [ReadMe Generator](#readme-generator)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
+
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contribution](#contribution)
