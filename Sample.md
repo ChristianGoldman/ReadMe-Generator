@@ -19,8 +19,7 @@
 ## Installation
 Clone the repo from github, Navigate to the readme generator folder, in the command line "npm install".  
 ## Usage   
-Once installed a user is able to run the ReadMe generator from the command line! Simply type in "node index.js" and fill out all the relevant questions! You should see something like this!
-![About Me](assets/readme.png)
+Once installed a user is able to run the ReadMe generator from the command line! Simply type in "node index.js" and fill out all the relevant questions!
 ## Contribution
 Christian Goldman
 ## Tests 
